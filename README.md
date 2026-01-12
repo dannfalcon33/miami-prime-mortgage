@@ -67,6 +67,10 @@ Este proyecto está configurado para ser desplegado fácilmente en Cloudflare Pa
     - **Directorio de salida:** `dist`
 3.  Despliega.
 
+> [!IMPORTANT] > **Cloudflare Pages Configuration Error**: Si recibes un error diciendo "directory does not exist", es porque Cloudflare está ejecutando `wrangler deploy` sin construir el proyecto.
+> Asegúrate de que el **Build Command** en el dashboard de Cloudflare sea `npm run build` y NO `wrangler deploy`.
+> Si estás desplegando manualmente desde tu terminal, usa el comando `npm run deploy` (que ejecuta `build` antes de `deploy`).
+
 ---
 
 Hecho con ❤️ para Miami Prime Mortgage.
