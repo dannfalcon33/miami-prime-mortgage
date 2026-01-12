@@ -14,7 +14,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   onOpenVideo,
 }) => {
   return (
-    <section className="relative w-full min-h-screen snap-start flex items-center justify-center">
+    <section className="relative w-full h-screen snap-start flex items-center justify-center overflow-hidden">
       <HeroBackground />
 
       {/* Header - Top Left (Moved from Right) */}

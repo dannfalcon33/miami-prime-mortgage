@@ -35,8 +35,8 @@ export const DetailsSection: React.FC<DetailsSectionProps> = ({
   ];
 
   return (
-    <section className="w-full min-h-screen snap-start bg-white flex items-center relative">
-      <div className="w-full min-h-screen flex flex-col md:flex-row">
+    <section className="w-full h-screen snap-start bg-white flex items-center overflow-hidden relative">
+      <div className="w-full h-full flex flex-col md:flex-row">
         {/* Left Content */}
         <div className="w-full md:w-1/2 h-full flex flex-col justify-center px-6 md:px-16 lg:px-24 bg-white z-10">
           <motion.div

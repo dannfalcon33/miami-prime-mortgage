@@ -70,9 +70,9 @@ export const LoanModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="relative w-full max-w-lg bg-white shadow-2xl rounded-lg max-h-[85vh] flex flex-col"
+            className="relative w-full max-w-lg bg-white shadow-2xl rounded-lg max-h-[90vh] overflow-y-auto max-[415px]:max-h-[95vh]"
           >
-            <div className="p-4 sm:p-6 md:p-8 overflow-y-auto custom-scrollbar">
+            <div className="p-6 md:p-8 max-[415px]:p-4">
               <button
                 onClick={handleClose}
                 className="absolute top-4 right-4 text-gray-400 hover:text-gray-900 transition-colors z-10"
