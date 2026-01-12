@@ -43,7 +43,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenLoan }) => {
       <div className="absolute top-0 left-0 w-1/3 h-full bg-blue-900/10 pointer-events-none" />
 
       {/* Main Content */}
-      <div className="flex-grow flex items-center justify-center px-6 pt-20 pb-10 md:px-12 relative z-10">
+      <div className="flex-grow flex items-center justify-center px-6 pt-24 pb-14 md:px-12 relative z-10">
         <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Left Column - CEO Image */}
           <motion.div
