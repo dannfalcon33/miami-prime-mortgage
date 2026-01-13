@@ -73,4 +73,11 @@ Este proyecto está configurado para ser desplegado fácilmente en Cloudflare Pa
 
 ---
 
-Hecho con ❤️ para Miami Prime Mortgage.
+📫 **Contacto**
+
+- **Email**: yoshuasoto54@gmail.com
+- **WhatsApp**: +58 0422 033 1995
+
+![dann-falcon](banner.png)
+
+---
